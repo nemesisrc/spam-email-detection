@@ -17,6 +17,7 @@
 A machine learning/deep learning system that accurately classifies emails as spam or legitimate with **over 98% accuracy**! This project uses state-of-the-art NLP techniques and neural networks to protect your inbox from unwanted emails.
 
 **Key Features**:
+
 - 🔍 Text preprocessing with lemmatization and stopword removal
 - 🤖 Multiple model architectures (CNN, LSTM, BERT)
 - 📊 Comprehensive performance metrics visualization
@@ -26,18 +27,21 @@ A machine learning/deep learning system that accurately classifies emails as spa
 ## 🧩 Technologies Used
 
 ### 🤖 Machine Learning
+
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/-Keras-D00000?logo=keras&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
 
 ### 📊 Data Processing
+
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white)
 ![Numpy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white)
 ![NLTK](https://img.shields.io/badge/-NLTK-40AEF0?logo=nltk&logoColor=white)
 ![SpaCy](https://img.shields.io/badge/-spaCy-09A3D5?logo=spacy&logoColor=white)
 
 ### 🎨 Visualization
+
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=matplotlib&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/-Seaborn-5B8FA8?logo=seaborn&logoColor=white)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?logo=plotly&logoColor=white)
@@ -64,18 +68,21 @@ spam-detection/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.8+
 - pip package manager
 
 ### Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/your-username/spam-email-detection.git
    cd spam-email-detection
    ```
 
 2. **Create a virtual environment** (recommended):
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
@@ -90,15 +97,19 @@ spam-detection/
 ### 🧪 Running the Application
 
 1. **Train the model**:
+
    ```bash
    python src/modeling.py
    ```
 
 2. **Make predictions**:
+
    ```bash
    python src/predict.py --email "You've won $1,000,000! Click here to claim your prize!"
    ```
+
    Example output:
+
    ```
    📧 Email: "You've won $1,000,000! Click here to claim your prize!"
    🔮 Prediction: SPAM (99.7% confidence)
@@ -111,12 +122,12 @@ spam-detection/
 
 ## 📊 Model Performance
 
-| Model          | Accuracy | Precision | Recall | F1-Score |
-|----------------|----------|-----------|--------|----------|
-| **CNN**        | 98.2%    | 98.5%     | 97.8%  | 98.1%    |
-| **LSTM**       | 98.5%    | 98.7%     | 98.3%  | 98.5%    |
-| **BERT**       | **99.1%**| **99.3%** | **98.9%**| **99.1%**|
-| Random Forest  | 96.8%    | 97.1%     | 96.4%  | 96.7%    |
+| Model         | Accuracy  | Precision | Recall    | F1-Score  |
+| ------------- | --------- | --------- | --------- | --------- |
+| **CNN**       | 98.2%     | 98.5%     | 97.8%     | 98.1%     |
+| **LSTM**      | 98.5%     | 98.7%     | 98.3%     | 98.5%     |
+| **BERT**      | **99.1%** | **99.3%** | **98.9%** | **99.1%** |
+| Random Forest | 96.8%     | 97.1%     | 96.4%     | 96.7%     |
 
 ![Confusion Matrix](https://via.placeholder.com/400x300?text=Confusion+Matrix+Visualization)
 ![ROC Curve](https://via.placeholder.com/400x300?text=ROC+Curve+Comparison)
@@ -124,11 +135,13 @@ spam-detection/
 ## 📚 Dataset
 
 We use the **SpamAssassin Public Corpus** containing:
+
 - 6,947 emails (4,827 ham + 2,120 spam)
 - Real-world email headers and content
 - Balanced distribution for effective training
 
 Dataset features:
+
 - Subject lines
 - Email bodies
 - Sender information
@@ -137,6 +150,7 @@ Dataset features:
 ## 🛠️ Customization
 
 ### Training with your own data
+
 1. Place your email data in `data/raw/`
 2. Update the data loading path in `src/preprocessing.py`
 3. Run the preprocessing pipeline:
@@ -145,7 +159,9 @@ Dataset features:
    ```
 
 ### Experimenting with different models
+
 Modify `src/modeling.py` to:
+
 - Try different architectures
 - Adjust hyperparameters
 - Change embedding strategies
@@ -167,7 +183,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## ✉️ Contact
 
-Project Maintainer - [Your Name](mailto:your.email@example.com)  
+Project Maintainer - [Rajdeep Chakraborty(nemesis)](mailto:rajdeepchakraborty.asansol@gmail.com)  
 Project Link - [https://github.com/your-username/spam-email-detection](https://github.com/your-username/spam-email-detection)
 
 ---
