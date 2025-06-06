@@ -128,9 +128,6 @@ spam-detection/
 | **BERT**      | **99.1%** | **99.3%** | **98.9%** | **99.1%** |
 | Random Forest | 96.8%     | 97.1%     | 96.4%     | 96.7%     |
 
-![Confusion Matrix](https://via.placeholder.com/400x300?text=Confusion+Matrix+Visualization)
-![ROC Curve](https://via.placeholder.com/400x300?text=ROC+Curve+Comparison)
-
 ## 📚 Dataset
 
 We use the **SpamAssassin Public Corpus** containing:
