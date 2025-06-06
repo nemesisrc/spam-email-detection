@@ -1,6 +1,5 @@
 # 📧 Spam Email Detection System 🛡️
 
-![Project Banner](https://via.placeholder.com/800x300?text=Spam+Email+Detection+with+AI+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB)
 
 <div align="center">
   
@@ -77,7 +76,7 @@ spam-detection/
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/spam-email-detection.git
+   git clone https://github.com/nemesisrc/spam-email-detection.git
    cd spam-email-detection
    ```
 
@@ -183,8 +182,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## ✉️ Contact
 
-Project Maintainer - [Rajdeep Chakraborty(nemesis)](mailto:rajdeepchakraborty.asansol@gmail.com)  
-Project Link - [https://github.com/your-username/spam-email-detection](https://github.com/your-username/spam-email-detection)
+Project Maintainer - [Rajdeep Chakraborty](mailto:rajdeepchakraborty.asansol@gmail.com)  
+Project Link - [https://github.com/nemesisrc/spam-email-detection](https://github.com/nemesisrc/spam-email-detection)
 
 ---
 
